@@ -1,0 +1,9 @@
+name: FastHTML
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - python-fasthtml
+    - Markdown

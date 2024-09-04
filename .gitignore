@@ -1,0 +1,36 @@
+# Ignore test and dev directories
+test/
+dev/
+
+# Ignore all files named config
+config*
+
+# Ignore VS Code workspace and settings files
+.vscode/
+*.code-workspace
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore image directories
+images/
+data/raw/
+data/processed/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment directories
+venv/
+env/
