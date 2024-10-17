@@ -7,6 +7,7 @@ config*
 
 # Ignore VS Code workspace and settings files
 .vscode/
+.vs/
 *.code-workspace
 
 # Ignore Python cache files
@@ -34,3 +35,5 @@ Thumbs.db
 # Ignore virtual environment directories
 venv/
 env/
+
+# Ignore unecessary development files
